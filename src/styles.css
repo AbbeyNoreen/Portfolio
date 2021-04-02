@@ -1,12 +1,16 @@
 /* font-family: 'Oswald', sans-serif; */
+body {
+    width: 1000px;
+}
 
 h2 {
-    font-family: "oswald", sans-serif;
-    color: magenta;
+    color: #70069e;
+    font-family:"oswald", sans-serif;
+    font-size: 32px;
 }
 
 p {
     font-family: "oswald", sans-serif;
     font-weight: semi-bold;
-    color: green;
+    color: #8225aa;
 }
