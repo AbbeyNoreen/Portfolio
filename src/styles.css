@@ -1,2 +1,12 @@
 /* font-family: 'Oswald', sans-serif; */
 
+h2 {
+    font-family: "oswald", sans-serif;
+    color: magenta;
+}
+
+p {
+    font-family: "oswald", sans-serif;
+    font-weight: semi-bold;
+    color: green;
+}
