@@ -158,6 +158,15 @@ border-right: 2px var(--secondary-color) solid;
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     }
 
+    .fa-home {
+        color: #78C323;
+        font-size: 35px;
+    }
+    .fa-home:hover {
+        color: rgba(0, 0, 0, 0.8);
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
 footer {
     padding: 12px 0;
 }
