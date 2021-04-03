@@ -15,7 +15,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+        <div class="container">
           <a class="navbar-brand" href="#">Abbey Noreen</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,20 +37,21 @@
       </nav>
     <div class="container">
         <div class="row">
-            <div class="col-md-5 female-hero-image">
-                <img alt="woman coding" src="images/Female-Computer-Programmer.jpg" />
+            <div class="col-md-6">
+                <img alt="woman coding" src="images/Female-Computer-Programmer.jpg" class="female-hero-image" />
             </div>
-            <div class="col-md-7 about-section">
+            <div class="col-md-6 about-section">
                 <h1>Welcome!</h1>
                 <p>My name is Abbey Noreen.<br />
                    I am a junior frontend developer <br />
                    working in Southern Wisconsin.</p>
-                    <p><a class="col-md-3" href="/projects.html">Projects</a><a class="col-md-3" href="/contact.html">Contact</a></p>
+                    <p><a class="project-link" href="/projects.html">Projects</a><a class="contact-link" href="/contact.html">Contact</a></p>
             </div>
         </div>
         <div id="about-me" class="row">
             <div class="col-md-4 personal-info">
-                <ul>
+              <h2>Personal</h2>  
+              <ul>
                     <li>💑 Married for 11 years</li>
                     <li>👧 Mom to 2 daughters 👧</li>
                     <li>❤ true crime</li>
@@ -58,7 +59,8 @@
               </ul>
             </div>
             <div class="col-sm-4 education-info">
-                <ul>
+              <h2>Education</h2>  
+              <ul>
                     <li>Journalism | UW-Whitewater</li>
                     <li>Intro to Coding | SheCodes</li>
                     <li>Frontend Development | SheCodes</li>
@@ -66,7 +68,8 @@
                 </ul>
             </div>
             <div class="col-sm-4 professional-info">
-                <ul>
+              <h2>Professional</h2>  
+              <ul>
                   <li>Frontend Developer | Foremost Media</li>
                   <li>Store Manager | Carter's</li>
                   <li>Retail Ops Manager | True Studio</li>
@@ -74,5 +77,19 @@
             </div>
         </div>
     </div>
+    <footer class="bg-light d-flex">
+      <div class="container">
+        <div class="row">
+      <div class="col-sm-6">
+<p>Created by Abbey Noreen<br />
+  Hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a></p>
+  </div>
+  <div class="col-sm-6">
+    <a href="https://www.linkedin.com/in/abbeynoreen/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/AbbeyNoreen" target="_blank"><i class="fab fa-github-square"></i></a>
+  </div>
+</div>
+</div>
+    </footer>
 </body>
 </html>
