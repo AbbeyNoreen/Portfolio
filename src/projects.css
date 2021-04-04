@@ -44,83 +44,8 @@ p {
     font-size: 20px;
 }
 
-.hero-section {
-    font-family: var(--main-font-family);
-    padding: 45px;
-}
 
-.female-hero-image {
-    border-radius: 5px;
-    max-width: 100%;
-}
 
-.hero-opener {
-    text-align: center;
-}
-
-.homepage-links a {
-    color: white;
-    font-family: var(--main-font-family);
-    font-size: 18px;
-    margin: 20px;
-    padding: 15px 20px;
-    text-decoration: none;
-    text-transform: capitalize;
-}
-
-.project-link {
-    background: var(--primary-color);
-    border: none;
-    border-radius: 4px;
-    box-shadow: var(--box-shadow);
-}
-
-.project-link:hover {
-    background-color: var(--secondary-color);
-    border: none;
-    border-radius: 4px;
-    box-shadow: var(--box-shadow);
-    color: #fff;
-    text-decoration: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.contact-link {
-    background: var(--primary-color);
-    border: none;
-    border-radius: 4px;
-    box-shadow: var(--box-shadow);
-}
-
-.contact-link:hover {
-    background-color: var(--secondary-color);
-    border: none;
-    border-radius: 4px;
-    box-shadow: var(--box-shadow);
-    color: #fff;
-    text-decoration: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-.about-section {
-    font-family: var(--main-font-family);
-    padding: 45px;
-}
-.about-section li {
-    color: rgba(0, 0, 0, 0.9);
-    font-family: var(--main-font-family);
-    font-size: 16px;
-}
-
-.about-header {
-    margin-left: 30px;
-}
-.personal-info {
-border-right: 2px var(--secondary-color) solid;
-}
-
-.education-info {
-    border-right: 2px var(--secondary-color) solid; 
-}
 .social-links i {
     font-size: 35px;
 }
@@ -176,36 +101,9 @@ font-size: 15px;
 }
 
 /* responsive styles */
-@media (max-width:991px) {
-    .hero-section {
-        padding: 25px 0;
-    }
-    .hero-opener h1 {
-        font-size: 55px !important;
-    }
-    .hero-opener p {
-        font-size: 18px;
-    }
-    .about-section {
-        padding: 25px 0;
-    }
-    .about-section li {
-        font-size: 14px;
-    }
-    .personal-info {
-        border-right: none;
-    }
-    .education-info {
-        border-right: none;
-    }
-}
-
 @media (max-width: 768px) {
     body {
         text-align: center;
-    }
-    ul {
-        list-style: none;
     }
 }
 @media (max-width: 540px) {
@@ -216,28 +114,5 @@ font-size: 15px;
 @media (max-width: 520px) {
     .social-links {
         display: none;
-    }
-}
-@media (max-width: 425px) {
-    .homepage-links a {
-        margin: 10px;
-    }
-    .about-header {
-        margin-left: 0;
-    }
-    ul {
-        list-style: none;
-    }
-}
-
-@media (max-width: 280px) {
-    .hero-opener h1 {
-        font-size: 50px !important;
-    }
-    .hero-opener p {
-        font-size: 18px;
-    }
-    .homepage-links a {
-        margin: 0;
     }
 }
