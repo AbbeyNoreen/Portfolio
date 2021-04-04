@@ -119,17 +119,14 @@ font-size: 15px;
 
 /* responsive styles */
 @media (max-width: 768px) {
-    body {
-        text-align: center;
+    h1 {
+        font-size: 60px !important;
     }
     .contact-page-links {
-        padding: 0 0 25px 0;
+        padding: 25px 0;
     }
 }
 @media (max-width: 540px) {
-    h1 {
-        font-size: 75px !important;
-    }
     .social-links i {
         font-size: 20px;
     }
@@ -137,5 +134,16 @@ font-size: 15px;
 @media (max-width: 520px) {
     .social-links {
         display: none;
+    }
+}
+@media (max-width: 425px) {
+    h1 {
+        font-size: 33px !important;
+    }
+    h2 {
+        font-size: 35px !important;
+    }
+    .contact-page-links {
+        padding: 0 0 25px 0;
     }
 }
