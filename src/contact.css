@@ -36,12 +36,51 @@ h1 {
 
 h2 {
     color: var(--primary-color);
-    font-size: 48px;
+    font-size: 48px !important;
 }
 
-p {
-    color: rgba(0, 0, 0, 0.9);
-    font-size: 20px;
+.contact-page-links {
+    font-size: 55px;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-page-links a {
+    text-decoration: none;
+}
+
+.fa-linkedin {
+    color: #172bd9;
+}
+     .fa-linkedin:hover {
+        color: rgba(0, 0, 0, 0.8);
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
+.fa-github-square {
+    color: #4509AE;
+}
+    .fa-github-square:hover {
+        color: rgba(0, 0, 0, 0.8);
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .fa-envelope-square {
+        color: #78C323;
+    }
+    .fa-envelope-square:hover {
+        color: rgba(0, 0, 0, 0.8);
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
+    .fa-instagram-square {
+        color: #F907E6;
+    }
+    .fa-instagram-square:hover {
+        color: rgba(0, 0, 0, 0.8);
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+.contact-page a {
+    text-decoration: none;
 }
 
 .social-links i {
